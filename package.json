@@ -1,0 +1,23 @@
+{
+  "name": "obopay-npm-library",
+  "version": "1.0.0",
+  "description": "Obopay npm library for third party user.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/obopay/obopay-npm-library"
+  },
+  "keywords": [
+    "obopay"
+  ],
+  "author": "Vishal Sinha",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.14.0"
+  },
+  "dependencies": {}
+}
