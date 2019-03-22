@@ -70,7 +70,7 @@ The json response result from **ObopayClient** will be of the following structur
 By default the **ObopayClient** will log data in the **obopay-logs** directory date-wise. Logger can be initialized in the **init** function or **initLogger** function.
 
 	const loggerConfig = {
-                           logLevel     : 'NONE' | 'ERROR' | 'DEBUG' | 'CONSOLE',	// default is 'DEBUG'
+                           logLevel     : 'NONE' | 'ERROR' | 'DEBUG' | 'CONSOLE' 	// default is 'DEBUG'
                            writeStream  : optional
                          }
 
