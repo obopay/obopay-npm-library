@@ -22,10 +22,10 @@ Import the Obopay REST client (**ObopayClient**) as follows.
 Initialize **ObopayClient** with the respective config values.
 
 	const config = {
-	                 clientId         : client id (given by obopay),
-	                 clientPrivateKey : client private key (required for encryption),
-	                 serverPublicKey  : server public key (given by obopay),
-	                 serverHost       : host name of the server (given by obopay),
+	                 clientId         : client id (given by obopay)
+	                 clientPrivateKey : client private key (required for encryption)
+	                 serverPublicKey  : server public key (given by obopay)
+	                 serverHost       : host name of the server (given by obopay)
 	                 serverPort       : port on which the server is listening (optional) (given by obopay)
 	               }
 
