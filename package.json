@@ -1,7 +1,7 @@
 {
-  "name": "obopay-npm-library",
+  "name": "obopay-node-client",
   "version": "1.0.0",
-  "description": "Obopay npm library for third party user.",
+  "description": "Obopay node.js communication (REST) client npm library.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/obopay/obopay-npm-library"
+    "url": "https://github.com/obopay/node-communication-client"
   },
   "keywords": [
     "obopay"

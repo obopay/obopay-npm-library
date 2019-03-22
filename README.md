@@ -1,4 +1,4 @@
-# Obopay npm Library
+# Obopay node.js Communication Client
 
 Current protocol version : v2
 
@@ -10,13 +10,13 @@ To use the Obopay REST APIs, the client will have to register with Obopay. Durin
 
 Install obopay-npm-library using the following command in your node project.
 
-	npm install git+ssh://github.com/obopay/obopay-npm-library.git
+	npm install git+ssh://github.com/obopay/node-communication-client.git
 
 ## Usage
 
 Import the Obopay REST client (**ObopayClient**) as follows.
 
-	const obopayClient = require('obopay-npm-library').ObopayClient
+	const obopayClient = require('obopay-node-client').ObopayClient
 
 
 Initialize **ObopayClient** with the respective config values.
