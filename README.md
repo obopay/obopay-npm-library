@@ -8,7 +8,7 @@ To use the Obopay REST APIs, the client will have to register with Obopay. Durin
 
 ## Installation
 
-Install obopay-node-client using the following command in your node project.
+Install **node-communication-client** using the following command in your node project.
 
 	npm install git+ssh://github.com/obopay/node-communication-client.git
 
@@ -16,7 +16,7 @@ Install obopay-node-client using the following command in your node project.
 
 Import the Obopay REST client (**ObopayClient**) as follows.
 
-	const obopayClient = require('obopay-node-client').ObopayClient
+	const obopayClient = require('@obopay/communication-client').ObopayClient
 
 
 Initialize **ObopayClient** with the respective config values.
