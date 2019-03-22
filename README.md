@@ -10,7 +10,7 @@ To use the Obopay REST APIs, the client will have to register with Obopay. Durin
 
 Install obopay-npm-library using the following command in your node project.
 
-	npm install git+ssh://github.com/vishalsinhaobopay/obopay-npm-library.git
+	npm install git+ssh://github.com/obopay/obopay-npm-library.git
 
 ## Usage
 
