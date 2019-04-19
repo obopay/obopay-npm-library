@@ -18,6 +18,6 @@ export declare type ResultStruct = {
 export declare namespace ObopayClient {
     function init(config: ObopayConfig, loggerConfig?: LoggerConfig): void;
     function initLogger(loggerConfig?: LoggerConfig): void;
-    function obopayApi(apiName: string, params: any, unsecured?: boolean): Promise<ResultStruct>;
+    function obopayApi(moduleName: string, apiName: string, params: any, unsecured?: boolean): Promise<ResultStruct>;
     function closeResources(): void;
 }
