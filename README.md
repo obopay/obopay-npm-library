@@ -33,10 +33,11 @@ Initialize **ObopayClient** with the respective config values.
 
 Use the **obopayApi** function in **ObopayClient** to call the API.
 
-	const apiName = api name,
-          params  = api params json object
+	const moduleName = module name,
+	      apiName    = api name,
+	      params     = api params json object
 
-	obopayClient.obopayApi(apiName, params).then((result) => {
+	obopayClient.obopayApi(moduleName, apiName, params).then((result) => {
 		// do something with result
 	})
 
