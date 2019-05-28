@@ -35,7 +35,7 @@ Use the **obopayApi** function in **ObopayClient** to call the API.
 
 	const moduleName = module name,
 	      apiName    = api name,
-	      params     = api params json object
+	      params     = api params object
 
 	obopayClient.obopayApi(moduleName, apiName, params).then((result) => {
 		// do something with result
