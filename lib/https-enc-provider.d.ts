@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import { Logger } from './logger';
 import * as stream from 'stream';
 export declare class HttpsEncProvider {

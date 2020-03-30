@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import { UPromise } from './u-promise';
 import * as stream from 'stream';
 export declare namespace UStream {

@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import * as stream from 'stream';
 export declare type LogLevel = 'NONE' | 'ERROR' | 'DEBUG' | 'CONSOLE';
 export declare enum LogVal {

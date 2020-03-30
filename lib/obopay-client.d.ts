@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import { LogLevel } from './logger';
 import * as stream from 'stream';
 export declare type LoggerConfig = {
